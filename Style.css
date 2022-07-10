@@ -9,11 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-
                   /*navigation panel style*/
-
-
-
 
 .container-for-nav {
     width: 100vw;
@@ -119,7 +115,12 @@ width: 100%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
                    /*main content style*/
+
+
+
+
 .container-for-main {
     width: 100vw;
     height: 100vh;
@@ -129,15 +130,73 @@ width: 100%;
 
 .container-for-main__content-block {
     width: 60%;
-    height: 730px;
-    display: flex;
-    background-color: red;
+    height: 50%;
+    position: relative;
+    padding: 0 80px;
+    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
 }
+.container-for-main__content-block > h3 {
+    margin:  0 0 30px 0;
+}
+.container-for-main__content-block > h3::after{
+    content: url("img/Line2.png");
+    position: absolute;
+    right: 45%;
+    top: 16px;
+}
+.container-for-main__content-block-items {
+    width: 100%;
+    height: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+.container-for-main__content-block-items > div{
+    width: 33%;
+    height: 100%;
+    margin: 0 25px;
+    text-align: left;
+    cursor: pointer;
+}
+.container-for-main__content-block-items > div > h5{
+    margin: 20px 0 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+.container-for-main__content-block-items > div > span{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #D0D0D0;
+}
+.container-for-main__content-block-items > div > div{
+    width: 260px;
+    height: 324px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191B1C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-for-main__content-block-two{
     width: 40%;
-    height: 730px;
+    height: 50%;
     display: flex;
-
-
     background-color: green;
 }

@@ -85,7 +85,7 @@ margin: auto 0;
 }
 .container-for-nav__bcg-color{
     width: 100%;
-    max-height: 100%;
+    height: 100%;
     background-size: cover;
 }
 .container-for-nav__content {
@@ -118,21 +118,17 @@ width: 100%;
 
                    /*main content style*/
 
-
-
-
 .container-for-main {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
 }
-
 .container-for-main__content-block {
     width: 60%;
     height: 50%;
     position: relative;
-    padding: 0 80px;
+    padding: 0 0 0 84px;
     background-color: black;
     font-family: 'Playfair Display', serif;
     font-size: 36px;
@@ -144,7 +140,7 @@ width: 100%;
 .container-for-main__content-block > h3::after{
     content: url("img/Line2.png");
     position: absolute;
-    right: 45%;
+    right: 42%;
     top: 16px;
 }
 .container-for-main__content-block-items {
@@ -182,21 +178,97 @@ width: 100%;
     background: #191B1C;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .container-for-main__content-block-two{
     width: 40%;
     height: 50%;
     display: flex;
-    background-color: green;
+    padding: 0 0 0 80px;
+    position: relative;
+    background-color: black;
 }
+.container-for-main__content-block-two > img{
+    width: 100%;
+    height: 100%;
+}
+.container-for-main__content-block-two__content {
+    position: absolute;
+    left: 34%;
+    bottom: 24%;
+    text-align: center;
+}
+.container-for-main__content-block-two__content > h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.container-for-main__content-block-two__content > h3::after{
+    content: url("img/Line2.png");
+    position: absolute;
+    right: 30%;
+    top: 37%;
+}
+.container-for-main__content-block-two__content > input:nth-child(2) {
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.container-for-main > div:nth-child(3) {
+    padding-top: 50px;
+}
+.container-for-main > div:nth-child(3) {
+    padding: 92px 0 0 0;
+}
+.container-for-main__content-block-two > img :nth-child(1) {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.container-for-main__content-block > div > h4:nth-child(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+.container-for-main__content-block > div > h4:nth-child(1)::after {
+    content: url("img/Line2.png");
+    position: absolute;
+    right: 41%;
+    top: 27%;
+}
+.container-for-main__content-block > div:nth-child(1) {
+    width: 470px;
+    height: 172px;
+    margin: 100px auto;
+}
+.container-for-main__content-block > div > p:nth-child(2) {
+    font-family: 'PT Sans' ,sans-serif;
+    font-size: 14px;
+}
+.container-for-main__content-block > div > input:nth-child(3) {
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'PT Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+.container-for-main-watch {
+    width: 100vw;
+    height: 100vh;
+    padding: 0 400px 150px 400px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+
+

@@ -260,15 +260,35 @@ width: 100%;
     font-size: 18px;
     line-height: 23px;
 }
-.container-for-main-watch {
+.container-for-main-content {
     width: 100vw;
     height: 100vh;
-    padding: 0 400px 150px 400px;
+    position: relative;
+}
+.container-for-main-content > h4:nth-child(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+text-align: center;
+}
+.container-for-main-content > h4::after{
+    content: url("img/Line2.png");
+    position: absolute;
+    right: 46%;
+    top: 40px;
+}
+.container-for-main-content__card {
+    width: 900px;
+    height: 700px;
     display: flex;
     flex-wrap: wrap;
-
-
+    justify-content: space-between;
+    margin: 80px auto 0 auto;
 }
-
+.container-for-main-content__card > div > div{
+    background-color: #191B1C;
+}
+.container-for-main-content__card > div {
+    cursor: pointer;
+}
 
 
